@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Jack
 middle_name: W.
 last_name: O'Sullivan
@@ -15,7 +15,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: animal, welfare, animal-welfare, ecology, behavioural ecology, novel-technologies, ethology, research, researcher
+keywords: jack-osullivan, animal, welfare, animal-welfare, ecology, behavioural ecology, novel-technologies, ethology, research, researcher
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: pawprint_favicon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -75,7 +75,7 @@ x_username: JackO_Sullivan # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jack-o-sullivan-7b0b95218 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: 1K7TNo4AAAAJ # your Google Scholar ID
+scholar_userid: https://scholar.google.co.uk/citations?user=1K7TNo4AAAAJ&hl=enl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0006-5551-6778 # your ORCID ID
@@ -83,8 +83,8 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: mhxct # your OSF ID
-research_gate_profile: Jack-Osullivan-7 # your profile on ResearchGate
+osf_id: osf.io/mhxct # your OSF ID
+research_gate_profile: https://www.researchgate.net/profile/Jack-Osullivan-7 # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
