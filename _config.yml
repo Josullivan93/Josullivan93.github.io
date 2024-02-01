@@ -83,8 +83,8 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: osf.io/mhxct # your OSF ID
-research_gate_profile: https://www.researchgate.net/profile/Jack-Osullivan-7 # your profile on ResearchGate
+osf_id: mhxct # your OSF ID
+research_gate_profile: Jack-Osullivan-7 # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
