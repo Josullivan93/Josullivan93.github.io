@@ -160,15 +160,35 @@
       "title": "Battersea Research Grant",
       "awarder": "Battersea Dogs & Cats Home",
       "url": "https://www.battersea.org.uk/what-we-do/working-with-other-rescues/battersea-grants",
-      "summary": "~£60,000 grant awarded for the design, development, and validation of an open-source device for the remote monitoring of animal behaviour, welfare, and health within a shelter setting."
+      "summary": "~£60,000 grant awarded for the design, development, and validation of an open-source device for the remote monitoring of animal behaviour, welfare, and health within a shelter setting.",
+	  "date": "2022"
+    },
+	{
+      "title": "PawPrint Project featured as “New and Noteworthy” by the Open Science Framework.",
+      "awarder": "Open Science Framework",
+      "url": "https://www.osf.io",
+      "summary": "The PawPrint project page was featured prominenetly on the front page of the OSF homepage for weeks following the award.",
+	  "date": "2023"
+    }
+  ],
+  "memberships": [
+    {
+      "title": "Association for the Study of Animal Behaviour",
+      "url": "https://www.asab.org/"
+    },
+	{
+      "title": "Animal Welfare Research Network",
+      "url": "https://awrn.co.uk/"
     }
   ],
   "projects": [
     {
-      "name": "Test Project.",
-      "publisher": "Test Test",
-      "releaseDate": "In Prep."
-    }
+      "name": "PawPrint: An Open Source Inertial and Magnetic Measurement Unit",
+      "publisher": "O'Sullivan, J.",
+	  "releaseDate": "Created:<br>01/11/2023"
+      "summary": "This Open Science Framework Repository presents all files required for the manufacture and configuration of the PawPrint device. This Open-Source Inertial and Magnetic Measurement Unit (IMMU) has been developed as a minimal cost solution for the remote monitoring of animal activity and behaviour. Work funded via a grant awarded by Battersea Dogs & Cats Home."
+	  "url": "https://doi.org/10.17605/OSF.IO/KZ6NW"
+	}
   ],
   "publications": [
     {
@@ -202,84 +222,114 @@
   ],
   "conferences": [
     {
-      "name": "The impact of welfare on the circadian rhythms of activity in domestic dogs.",
-      "publisher": "In Prep."
+      "name": "Translating behavioural ecology acceleration measures to a welfare context.",
+      "publisher": "Proceedings of the 6th Annual Meeting of the Animal Welfare Research Network.",
+      "releaseDate": "15/07/2021"
     },
     {
-      "name": "‘Dynamic body acceleration as a measure of welfare impact in domestic dogs.",
-      "publisher": "In Prep."
+      "name": "‘Identifying Canine Posture from a Wearable Sensor: Application of Cross-Disciplinary Methods to Companion Animal Monitoring.’",
+      "publisher": "Volume 1 of the Proceedings of the joint 12th International Conference on Methods and Techniques in Behavioral Research and 6th Seminar on Behavioral Methods",
+	  "releaseDate": "15/10/2021",
+	  "url": "https://doi.org/10.6084/m9.figshare.13013717.v5"
     },
     {
-      "name": "A step in the right direction: an open-design pedometer algorithm for dogs.",
-      "publisher": "BMC Vet Res",
-      "url": "https://doi.org/10.1186/s12917-018-1422-3",
-      "summary": "Ladha C., Belshaw Z., O’Sullivan J., Asher L., 2018, ‘A step in the right direction: an open-design pedometer algorithm for dogs.’ BMC Vet Res 14, 107."
-    },
-    {
-      "name": "GaitKeeper: A System for Measuring Canine Gait.",
-      "Author": "Test test, TEST TEST",
-      "publisher": "Sensors MDPI",
-      "url": " https://doi.org/10.3390/s17020309",
-      "summary": "Ladha C., O’Sullivan J., Belshaw Z., Asher L., 2017, ‘GaitKeeper: A System for Measuring Canine Gait.’ Sensors., 17(2):309."
-    },
-    {
-      "name": "Identification of behaviours from accelerometer data in a wild social primate.",
-      "publisher": "BMC Animal Biotelemetry",
-      "url": "https://doi.org/10.1186/s40317-017-0121-3",
-      "summary": "Fehlmann G., O’Riain M.J., Hopkins P.W., O’Sullivan J., Holton M.D., Shepard E.L.C., King A.J., 2017, ‘Identification of behaviours from accelerometer data in a wild social primate.’ Anim Biotelemetry 5, 6."
+      "name": "Circadian rhythms in activity in healthy and arthritic dogs.",
+      "publisher": "Proceedings of the 52nd Congress of the International Society for Applied Ethology, Ethology for health and welfare",
+      "url": "https://doi.org/10.3920/978-90-8686-870-4"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming & Statistical Languages",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "R",
+        "RShiny",
+        "Python",
+		"C",
+        "C++",
+        "Java",
+        "SQL",
+		"Matlab"
+      ]
+    },
+	{
+      "name": "Techniques",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Behavioural Observation, Annotation, & Analyses",
+        "Behavioural Experimental Design",
+        "Thermography & Analysis",
+		"Acoustic Monitoring & Analysis",
+        "Animal Attached Monitor Deployment & Analysis",
+        "Hardware Design, Production & Programming",
+        "Statistical Modelling (Including Bayesian)",
+		"Deep Learning Method Implementation",
+		"GIS & Spatio-Temporal Modelling"
+      ]
+    },
+	{
+      "name": "Science Communication",
+      "icon": "fa-solid fa-comments",
+      "keywords": [
+        "Presentation at National & International Conferences",
+        "Presentation to Lay Audiences",
+        "Design of Graphical Interfaces for Automated Analyses & Visualisation of Past & Future Data",
+		"Report Writing for Stakeholders (Including Advisory Reports for Governmental Departments)",
+        "Familiarity with EU & UK Domestic Animal Welfare & Husbandry Legislation"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-earth-europe"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "language": "Mandarin Chinese",
+      "fluency": "Learning - Beginner",
+      "icon": "fa-solid fa-earth-asia"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Academic",
+      "icon": "fa-solid fa-graduation-cap",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Application of Novel Technologies and Methods",
+        "Behavioural Ecology",
+        "Animal Welfare",
+		"Animal Cognition",
+		"Conservation & Management",
+        "Human-Animal Interaction",
+        "Human-Animal Conflict & Management",
+		"Interdisciplinary Application & Development of Methods Between Wild & Domestic Contexts",
+        "Impact of Social Interactions on Welfare & Potential for Remote Monitoring"
+      ]
+    },
+	{
+      "name": "Non-Academic",
+      "icon": "fa-solid fa-person-hiking",
+      "keywords": [
+        "Hiking",
+        "Swimming",
+        "SCUBA Diving",
+        "Table-Top Role-Playing Games & Board Games",
+        "Hobbyist Programming & Hardware Projecets"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Lucy Asher",
+      "icon": "fa-solid fa-user",
+      "reference": "Professor of Behaviour Informatics<br>lucy.asher@ncl.ac.uk"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Daniel Mills",
+      "icon": "fa-solid fa-user",
+      "reference": "Professor of Veterinary Behavioural Medicine<br>dmills@lincoln.ac.uk"
     }
   ]
 }
