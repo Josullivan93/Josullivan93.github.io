@@ -5,7 +5,7 @@
     "image": "",
     "email": "J.W.OSullivan93@gmail.com",
     "phone": "(+44) 07399 356290",
-    "url": "https://josullivan93.github.io",
+    "URL": "https://josullivan93.github.io",
     "summary": "I am a postdoctoral researcher experienced in the development and application of novel technologies and methodologies to the modelling and monitoring of animal behaviour, welfare, ecology, and cognition. My research interests lie in the interplay between these fields and the diverse ways in which novel methods can be utilised to answer novel questions in these areas, furthering our understanding and informing our management of both wild and domestic animals and their environments.",
     "location": {
       "city": "Loughborough",
@@ -41,8 +41,8 @@
       "name": "Asher Behaviour Lab, Newcastle University",
       "position": "Research Associate (Poultry Welfare Informatics)",
       "url": "https://ethologysensedotcom.wordpress.com/",
-      "startDate": "31/01/2024",
-      "endDate": "Present",
+      "startDate": "01/2024 <br>",
+      "endDate": "<br>Present",
       "summary": "Working to develop, implement and assess machine learning methodologies for the acoustic monitoring of commercial chicken behaviour and welfare.",
       "highlights": [
         "Acoustic Monitoring Methods",
