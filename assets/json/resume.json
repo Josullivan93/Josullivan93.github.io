@@ -200,7 +200,7 @@
       "url": "https://doi.org/10.1186/s40317-017-0121-3"
     }
   ],
-  "Conferences": [
+  "conferences": [
     {
       "name": "The impact of welfare on the circadian rhythms of activity in domestic dogs.",
       "publisher": "In Prep."
@@ -280,16 +280,6 @@
       "name": "Professor John Doe",
       "icon": "fa-solid fa-thumbtack",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
