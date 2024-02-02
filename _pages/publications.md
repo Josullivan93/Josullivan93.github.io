@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Below are publications that have been produced as results of my research. Also included is my PhD Thesis from which several papers are soon to be published. For details of In Prep papers, Conference Proceedings, and Open Source Projects see the relevant sections of my CV.
+description: Below are publications that have been produced as a result of my research. Also included is my PhD Thesis from which several papers are soon to be published. For details of In Prep papers, Conference Proceedings see the relevant sections of my CV. For further details of the PawPrint open source project see the relevant [project page](https://josullivan93.github.io/projects/1_project/) or [the OSF repository](osf.io/kz6nw/).
 nav: true
 nav_order: 2
 ---
