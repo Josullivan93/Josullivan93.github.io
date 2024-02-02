@@ -185,7 +185,7 @@
     {
       "name": "PawPrint: An Open Source Inertial and Magnetic Measurement Unit",
       "publisher": "O'Sullivan, J.",
-	  "releaseDate": "Created:<br>01/11/2023"
+	  "releaseDate": "Created:<br>01/11/2023",
       "summary": "This Open Science Framework Repository presents all files required for the manufacture and configuration of the PawPrint device. This Open-Source Inertial and Magnetic Measurement Unit (IMMU) has been developed as a minimal cost solution for the remote monitoring of animal activity and behaviour. Work funded via a grant awarded by Battersea Dogs & Cats Home.",
 	  "url": "https://doi.org/10.17605/OSF.IO/KZ6NW"
 	}
