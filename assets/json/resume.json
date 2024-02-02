@@ -161,14 +161,14 @@
       "awarder": "Battersea Dogs & Cats Home",
       "url": "https://www.battersea.org.uk/what-we-do/working-with-other-rescues/battersea-grants",
       "summary": "~£60,000 grant awarded for the design, development, and validation of an open-source device for the remote monitoring of animal behaviour, welfare, and health within a shelter setting.",
-	  "date": "2022"
+      "date": "2022"
     },
-	{
+    {
       "title": "PawPrint Project featured as “New and Noteworthy” by the Open Science Framework.",
       "awarder": "Open Science Framework",
       "url": "https://www.osf.io",
       "summary": "The PawPrint project page was featured prominenetly on the front page of the OSF homepage for weeks following the award.",
-	  "date": "2023"
+      "date": "2023"
     }
   ],
   "memberships": [
@@ -176,7 +176,7 @@
       "title": "Association for the Study of Animal Behaviour",
       "url": "https://www.asab.org/"
     },
-	{
+    {
       "title": "Animal Welfare Research Network",
       "url": "https://awrn.co.uk/"
     }
@@ -185,10 +185,10 @@
     {
       "name": "PawPrint: An Open Source Inertial and Magnetic Measurement Unit",
       "publisher": "O'Sullivan, J.",
-	  "releaseDate": "Created:<br>01/11/2023",
+      "releaseDate": "Created:<br>01/11/2023",
       "summary": "This Open Science Framework Repository presents all files required for the manufacture and configuration of the PawPrint device. This Open-Source Inertial and Magnetic Measurement Unit (IMMU) has been developed as a minimal cost solution for the remote monitoring of animal activity and behaviour. Work funded via a grant awarded by Battersea Dogs & Cats Home.",
-	  "url": "https://doi.org/10.17605/OSF.IO/KZ6NW"
-	}
+      "url": "https://doi.org/10.17605/OSF.IO/KZ6NW"
+    }
   ],
   "publications": [
     {
@@ -229,8 +229,8 @@
     {
       "name": "‘Identifying Canine Posture from a Wearable Sensor: Application of Cross-Disciplinary Methods to Companion Animal Monitoring.’",
       "publisher": "Volume 1 of the Proceedings of the joint 12th International Conference on Methods and Techniques in Behavioral Research and 6th Seminar on Behavioral Methods",
-	  "releaseDate": "15/10/2021",
-	  "url": "https://doi.org/10.6084/m9.figshare.13013717.v5"
+      "releaseDate": "15/10/2021",
+      "url": "https://doi.org/10.6084/m9.figshare.13013717.v5"
     },
     {
       "name": "Circadian rhythms in activity in healthy and arthritic dogs.",
@@ -242,40 +242,31 @@
     {
       "name": "Programming & Statistical Languages",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "R",
-        "RShiny",
-        "Python",
-		"C",
-        "C++",
-        "Java",
-        "SQL",
-		"Matlab"
-      ]
+      "keywords": ["R", "RShiny", "Python", "C", "C++", "Java", "SQL", "Matlab"]
     },
-	{
+    {
       "name": "Techniques",
       "icon": "fa-solid fa-brain",
       "keywords": [
         "Behavioural Observation, Annotation, & Analyses",
         "Behavioural Experimental Design",
         "Thermography & Analysis",
-		"Acoustic Monitoring & Analysis",
+        "Acoustic Monitoring & Analysis",
         "Animal Attached Monitor Deployment & Analysis",
         "Hardware Design, Production & Programming",
         "Statistical Modelling (Including Bayesian)",
-		"Deep Learning Method Implementation",
-		"GIS & Spatio-Temporal Modelling"
+        "Deep Learning Method Implementation",
+        "GIS & Spatio-Temporal Modelling"
       ]
     },
-	{
+    {
       "name": "Science Communication",
       "icon": "fa-solid fa-comments",
       "keywords": [
         "Presentation at National & International Conferences",
         "Presentation to Lay Audiences",
         "Design of Graphical Interfaces for Automated Analyses & Visualisation of Past & Future Data",
-		"Report Writing for Stakeholders (Including Advisory Reports for Governmental Departments)",
+        "Report Writing for Stakeholders (Including Advisory Reports for Governmental Departments)",
         "Familiarity with EU & UK Domestic Animal Welfare & Husbandry Legislation"
       ]
     }
@@ -300,24 +291,18 @@
         "Application of Novel Technologies and Methods",
         "Behavioural Ecology",
         "Animal Welfare",
-		"Animal Cognition",
-		"Conservation & Management",
+        "Animal Cognition",
+        "Conservation & Management",
         "Human-Animal Interaction",
         "Human-Animal Conflict & Management",
-		"Interdisciplinary Application & Development of Methods Between Wild & Domestic Contexts",
+        "Interdisciplinary Application & Development of Methods Between Wild & Domestic Contexts",
         "Impact of Social Interactions on Welfare & Potential for Remote Monitoring"
       ]
     },
-	{
+    {
       "name": "Non-Academic",
       "icon": "fa-solid fa-person-hiking",
-      "keywords": [
-        "Hiking",
-        "Swimming",
-        "SCUBA Diving",
-        "Table-Top Role-Playing Games & Board Games",
-        "Hobbyist Programming & Hardware Projecets"
-      ]
+      "keywords": ["Hiking", "Swimming", "SCUBA Diving", "Table-Top Role-Playing Games & Board Games", "Hobbyist Programming & Hardware Projecets"]
     }
   ],
   "references": [
