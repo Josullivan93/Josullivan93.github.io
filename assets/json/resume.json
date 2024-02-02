@@ -166,36 +166,38 @@
   "open-source projects": [
     {
       "name": "The impact of welfare on the circadian rhythms of activity in domestic dogs.",
-      "publisher": "In Prep."
+      "publisher": "In Prep.",
+      "releaseDate": "In Prep."
     }
   ],
   "publications": [
     {
       "name": "The impact of welfare on the circadian rhythms of activity in domestic dogs.",
-      "publisher": "In Prep."
+      "publisher": "O'Sullivan, J., Asher, L.",
+      "releaseDate": "In Prep."
     },
     {
       "name": "‘Dynamic body acceleration as a measure of welfare impact in domestic dogs.",
-      "publisher": "In Prep."
+      "publisher": "O'Sullivan, J., Asher, L.",
+      "releaseDate": "In Prep."
     },
     {
       "name": "A step in the right direction: an open-design pedometer algorithm for dogs.",
-      "publisher": "BMC Vet Res",
-      "url": "https://doi.org/10.1186/s12917-018-1422-3",
-      "summary": "Ladha C., Belshaw Z., O’Sullivan J., Asher L., 2018, ‘A step in the right direction: an open-design pedometer algorithm for dogs.’ BMC Vet Res 14, 107."
+      "publisher": "Ladha C., Belshaw Z., O’Sullivan J., Asher L.",
+      "releaseDate": "20/03/2018",
+      "url": "https://doi.org/10.1186/s12917-018-1422-3"
     },
     {
       "name": "GaitKeeper: A System for Measuring Canine Gait.",
-      "Author": "Test test, TEST TEST",
-      "publisher": "Sensors MDPI",
-      "url": " https://doi.org/10.3390/s17020309",
-      "summary": "Ladha C., O’Sullivan J., Belshaw Z., Asher L., 2017, ‘GaitKeeper: A System for Measuring Canine Gait.’ Sensors., 17(2):309."
+      "publisher": "Ladha C., O’Sullivan J., Belshaw Z., Asher L.",
+      "releaseDate": "08/02/2017",
+      "url": " https://doi.org/10.3390/s17020309"
     },
     {
       "name": "Identification of behaviours from accelerometer data in a wild social primate.",
-      "publisher": "BMC Animal Biotelemetry",
-      "url": "https://doi.org/10.1186/s40317-017-0121-3",
-      "summary": "Fehlmann G., O’Riain M.J., Hopkins P.W., O’Sullivan J., Holton M.D., Shepard E.L.C., King A.J., 2017, ‘Identification of behaviours from accelerometer data in a wild social primate.’ Anim Biotelemetry 5, 6."
+      "publisher": "Fehlmann G., O’Riain M.J., Hopkins P.W., O’Sullivan J., Holton M.D., Shepard E.L.C., King A.J.",
+      "releaseDate": "224/03/2017",
+      "url": "https://doi.org/10.1186/s40317-017-0121-3"
     }
   ],
   "Conferences": [
