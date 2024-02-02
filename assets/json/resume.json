@@ -41,7 +41,7 @@
       "name": "Asher Behaviour Lab, Newcastle University",
       "position": "Research Associate (Poultry Welfare Informatics)",
       "url": "https://ethologysensedotcom.wordpress.com/",
-      "startDate": "31/01/2024<br>",
+      "startDate": "2024.01.31<br>",
       "endDate": "<br>Present",
       "summary": "Working to develop, implement and assess machine learning methodologies for the acoustic monitoring of commercial chicken behaviour and welfare.",
       "highlights": [
@@ -55,8 +55,8 @@
       "name": "Asher Behaviour Lab, Newcastle University",
       "position": "Temporary Research Assistant",
       "url": "https://ethologysensedotcom.wordpress.com/",
-      "startDate": "02/10/2023<br>",
-      "endDate": "<br>02/01/2024",
+      "startDate": "2023.10.02<br>",
+      "endDate": "<br>2024.01.02",
       "summary": "Working to develop, implement and assess computer vision based methods for the monitoring of commercial chicken piling behaviours.",
       "highlights": [
         "Computer Vision Methods",
@@ -69,8 +69,8 @@
       "name": "Westgarth Anthrozoology Group, University of Liverpool",
       "position": "Research Associate",
       "url": "https://twitter.com/WAGLabLiv",
-      "startDate": "01/04/2023<br>",
-      "endDate": "<br>31/07/2023",
+      "startDate": "2023.04.01<br>",
+      "endDate": "<br>2023.07.31",
       "summary": "A short-term research post joining an established team. My role focussed on the analysis of extant data and compilation of results for inclusion in a report to several external governmental stakeholders on the prevalence and statistical trends in the rescue of dogs and cats from abroad and the prevalence of significant diseases within those animals.",
       "highlights": [
         "Working with governmental stakeholders",
@@ -83,8 +83,8 @@
       "name": "Asher Behaviour Lab, Newcastle University",
       "position": "Computational Technician in Behaviour Informatics",
       "url": "https://ethologysensedotcom.wordpress.com/",
-      "startDate": "02/05/2022<br>",
-      "endDate": "<br>31/03/2023",
+      "startDate": "2022.05.02<br>",
+      "endDate": "<br>2023.03.31",
       "summary": "Working to design, develop, and validate an open-source inertial measurement unit as a low cost alternative within both by researchers and animal shelters. Project was the result of a grant (~£60,000) conceived of and written by me and awarded by Battersea dogs & cats home.",
       "highlights": [
         "Grant writing",
@@ -99,8 +99,8 @@
       "name": "Animal Behaviour Cognition and Welfare Research Group, University of Lincoln",
       "position": "Animal Behaviour Technician (Maternity Cover)",
       "url": "https://www.lincoln.ac.uk/lifesciences/research/animalbehaviourcognitionandwelfare/",
-      "startDate": "13/09/2021<br>",
-      "endDate": "<br>13/03/2022",
+      "startDate": "2021.09.13<br>",
+      "endDate": "<br>2022.03.13",
       "summary": "Collecting and analysing data of dyad social interactions between domestic dogs. Both video and chemical sample data were collected with the former annotated and analysed by myself and an additional research technician.",
       "highlights": ["Behavioural annotation", "Chemical sampling techniques", "Instruction of colleagues in ethological annotation"]
     },
@@ -108,8 +108,8 @@
       "name": "Asher Behaviour Lab, Newcastle University",
       "position": "Research Assistant (Behaviour Informatics)",
       "url": "https://ethologysensedotcom.wordpress.com/",
-      "startDate": "01/09/2019<br>",
-      "endDate": "<br>01/09/2021",
+      "startDate": "2019.09.01<br>",
+      "endDate": "<br>2021.09.01",
       "summary": "Assisting on numerous projects across the lab group while also providing support for a diverse group of PhD students and research technicians. Methods I used for the assessment of animal behaviour and welfare throughout this time included thermography, acoustic analysis, and computer vision. Work included the writing of reports for industrial partners and development of reusable rapid assessment tools and pipelines (including a custom android application).",
       "highlights": [
         "Acoustic Monitoring",
@@ -185,7 +185,7 @@
     {
       "name": "PawPrint: An Open Source Inertial and Magnetic Measurement Unit",
       "publisher": "O'Sullivan, J.",
-      "releaseDate": "Created:<br>01/11/2023",
+      "releaseDate": "Created:<br>2023.11.01",
       "summary": "This Open Science Framework Repository presents all files required for the manufacture and configuration of the PawPrint device. This Open-Source Inertial and Magnetic Measurement Unit (IMMU) has been developed as a minimal cost solution for the remote monitoring of animal activity and behaviour. Work funded via a grant awarded by Battersea Dogs & Cats Home.",
       "url": "https://doi.org/10.17605/OSF.IO/KZ6NW"
     }
@@ -204,19 +204,19 @@
     {
       "name": "A step in the right direction: an open-design pedometer algorithm for dogs.",
       "publisher": "Ladha C., Belshaw Z., O’Sullivan J., Asher L.",
-      "releaseDate": "20/03/2018",
+      "releaseDate": "2018.03.20",
       "url": "https://doi.org/10.1186/s12917-018-1422-3"
     },
     {
       "name": "GaitKeeper: A System for Measuring Canine Gait.",
       "publisher": "Ladha C., O’Sullivan J., Belshaw Z., Asher L.",
-      "releaseDate": "08/02/2017",
+      "releaseDate": "2017.02.08",
       "url": " https://doi.org/10.3390/s17020309"
     },
     {
       "name": "Identification of behaviours from accelerometer data in a wild social primate.",
       "publisher": "Fehlmann G., O’Riain M.J., Hopkins P.W., O’Sullivan J., Holton M.D., Shepard E.L.C., King A.J.",
-      "releaseDate": "24/03/2017",
+      "releaseDate": "2017.03.24",
       "url": "https://doi.org/10.1186/s40317-017-0121-3"
     }
   ],
@@ -224,23 +224,24 @@
     {
       "name": "Translating behavioural ecology acceleration measures to a welfare context.",
       "publisher": "Proceedings of the 6th Annual Meeting of the Animal Welfare Research Network.",
-      "releaseDate": "15/07/2021"
+      "releaseDate": "2021.07.15"
     },
     {
       "name": "‘Identifying Canine Posture from a Wearable Sensor: Application of Cross-Disciplinary Methods to Companion Animal Monitoring.’",
       "publisher": "Volume 1 of the Proceedings of the joint 12th International Conference on Methods and Techniques in Behavioral Research and 6th Seminar on Behavioral Methods",
-      "releaseDate": "15/10/2021",
+      "releaseDate": "2021.10.15",
       "url": "https://doi.org/10.6084/m9.figshare.13013717.v5"
     },
     {
       "name": "Circadian rhythms in activity in healthy and arthritic dogs.",
       "publisher": "Proceedings of the 52nd Congress of the International Society for Applied Ethology, Ethology for health and welfare",
+      "releaseDate": "2018.07.31",
       "url": "https://doi.org/10.3920/978-90-8686-870-4"
     }
   ],
   "skills": [
     {
-      "name": "Programming & Statistical Languages",
+      "name": "Programming &<br>Statistical Languages",
       "icon": "fa-solid fa-code",
       "keywords": ["R", "RShiny", "Python", "C", "C++", "Java", "SQL", "Matlab"]
     },
@@ -302,7 +303,7 @@
     {
       "name": "Non-Academic",
       "icon": "fa-solid fa-person-hiking",
-      "keywords": ["Hiking", "Swimming", "SCUBA Diving", "Table-Top Role-Playing Games & Board Games", "Hobbyist Programming & Hardware Projecets"]
+      "keywords": ["Hiking", "Swimming", "SCUBA Diving", "Table-Top Role-Playing Games & Board Games", "Hobbyist Programming & Hardware Projects"]
     }
   ],
   "references": [
