@@ -286,7 +286,7 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 
 scholar:
   last_name: [O'Sullivan]
-  first_name: [Jack, J.]
+  first_name: [J.]
 
   style: apa
   locale: en
