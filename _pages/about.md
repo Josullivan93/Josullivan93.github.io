@@ -2,25 +2,22 @@
 layout: about
 title: About Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  He/Him/His<br>Animal Behavioural Ecology and Welfare Postdoctoral Researcher<br><a href='https://ethologysensedotcom.wordpress.com/'>Asher Behaviour Laboratory</a>, Newcastle University
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
+   <! -- more_info: -->
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a behavioural ecology and animal welfare researcher focussing on the novel questions we are able to answer through the strategic application of novel technologies, statistics and deep learning to supplement more traditional observation-based methodologies and analyses. I began my research career applying these technologies with free-roaming, wild groups but opted to apply this knowledge-base to domestic species for my PhD. This has led to an in-depth understanding of the state of research performed with species across both of these contexts that I am able to draw on as I continue my research career with diverse species, in diverse environments, asking novel questions that can further improve how we understand, interact with, and manage both wild and domestic species to our mutual benefit. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research techniques allow both for the non-invasive, longitudinal collection of physiological and behavioural data at frequencies and resolutions difficult to capture with human observation and annotation. Additionally, the diversity of tools enables the collection of data that were formerly impossible to capture (e.g. thermographic indicators of affective state), or required potentially disruptive or impractical observation practices (24-hour individual and group activity and movement). As previously mentioned access to these data allows researchers to ask questions of animal welfare and behavioural ecology that were not formerly practical or possible. Not only are these the questions I am interested in answering in my research, with diverse, longitudinal sensor data allowing for a less anthropocentric approach. I believe science should be open and inclusive for all ![icon](/assets/img/emoji/pride.png). In an effort to improve access to low-cost sensor-based research I have designed and produced the PawPrint Sensor as an open-source project - Further details on this and my other research can be found on the <a href='https://josullivan93.github.io/projects/'>Projects page</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Please get in contact with any questions or collaboration ideas - Email and Social media links can be found at the top and bottom of the page.
