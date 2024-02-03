@@ -5,7 +5,7 @@ permalink: /
 subtitle: <b>He/Him</b>, Behavioural Ecology and Animal Welfare Postdoctoral Researcher, <a href='https://ethologysensedotcom.wordpress.com/'>Asher Behaviour Laboratory</a>
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
