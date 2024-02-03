@@ -2,7 +2,7 @@
 layout: about
 title: About Me
 permalink: /
-subtitle:  <b>He/Him/His</b>, Animal Behavioural Ecology and Welfare Postdoctoral Researcher, <a href='https://ethologysensedotcom.wordpress.com/'>Asher Behaviour Laboratory</a>, Newcastle University
+subtitle: <b>He/Him/His</b>, Animal Behavioural Ecology and Welfare Postdoctoral Researcher, <a href='https://ethologysensedotcom.wordpress.com/'>Asher Behaviour Laboratory</a>, Newcastle University
 
 profile:
   align: left
