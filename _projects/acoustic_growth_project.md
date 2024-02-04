@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Acoustic Monitoring Growth Curves
 description: another without an image
 img:
 importance: 3
-category: fun
+category: Commercial Animals
 ---
 
 Every project has a beautiful feature showcase page.
