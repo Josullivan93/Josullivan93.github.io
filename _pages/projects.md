@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Included here are dedicated pages for past & present projects that I have been involved with and am able to share further details of. Propjects are categorised by whether the study species are Companion, Commercial or Wild with the latter including captive and/or feral species/populations.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Companion Animals, Commercial Animals, Wild Animals]
 horizontal: false
 ---
 
