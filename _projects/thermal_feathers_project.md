@@ -11,7 +11,7 @@ Super brief description of the project - just outline use case, language used fo
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Thermal_Feathers/flirone.png" title="Phone and attached Flir One Thermographic Camera" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid path="assets/img/Thermal_Feathers/flirone.png" title="Phone and attached Flir One Thermographic Camera" class="img-fluid rounded z-depth-1" %}
     </div>
 	<div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Thermal_Feathers/AppDemo.png" title="Demo image of Thermal Feathers Application" class="img-fluid rounded z-depth-1" %}

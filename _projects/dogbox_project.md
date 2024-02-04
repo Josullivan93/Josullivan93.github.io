@@ -29,7 +29,7 @@ Text Between Images - Describe different Chapters - All non-postural
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/DogBox/Accelerometer_Output.png" title="Acceleration Trace" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid path="assets/img/DogBox/Accelerometer_Output.png" title="Acceleration Trace" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -40,7 +40,7 @@ Describe Postural Chapters
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/DogBox/Postural_Flow.png" title="Basic Postural Decision Tree" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid path="assets/img/DogBox/Postural_Flow.png" title="Basic Postural Decision Tree" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

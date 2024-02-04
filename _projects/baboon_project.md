@@ -11,7 +11,7 @@ Outline Project and my role in it - reverse image search to get reference for ba
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/baboon/baboonPhoto.png" title="Baboon with tag attached" class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid path="assets/img/baboon/baboonPhoto.png" title="Baboon with tag attached" class="img-fluid rounded z-depth-1" %}
     </div>
 	<div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/baboon/baboon_collar.png" title="Diagram of attachment method, location & orientation." class="img-fluid rounded z-depth-1" %}
@@ -25,7 +25,7 @@ Outline results
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/baboon/baboon_workflow.png" title="Diagram of behaviour annotation/identification workflow." class="img-fluid rounded-circle z-depth-1" %}
+        {% include figure.liquid path="assets/img/baboon/baboon_workflow.png" title="Diagram of behaviour annotation/identification workflow." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
