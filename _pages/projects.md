@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Included here are dedicated pages for past & present projects that I have been involved with and am able to share further details of. Propjects are categorised by whether the study species are Companion, Commercial or Wild with the latter including captive and/or feral species/populations.
+description: Included here are dedicated pages for some of the projects that I have been involved with and am able to share further details of.<br>Projects are categorised by whether the study species are Companion, Commercial or Wild with the latter including captive and/or feral species/populations.<br>If you would like further details on anything here or from any research referenced elsewhere on this website but not covered directly here please get in touch via email or social media.
 nav: true
 nav_order: 3
 display_categories: [Companion Animals, Commercial Animals, Wild Animals]
