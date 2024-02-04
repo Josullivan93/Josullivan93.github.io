@@ -7,6 +7,7 @@ importance: 3
 category: Companion Animals
 related_publications: true
 ---
+
 Intro text describing project & pedometer paper - find replacement for first image below as redundant. Check both papers & vetsens site.
 
 <div class="row justify-content-sm-center">

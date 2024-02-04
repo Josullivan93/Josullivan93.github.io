@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Piling Detection
-description: 
+description: Detection Of Piling Behaviours From Video Using Deep Learning Methods.
 img: assets/img/piling/chicken_prof.jpeg
 importance: 1
 category: Commercial Animals
