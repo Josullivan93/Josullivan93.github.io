@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Baboon Project
-description: Assessing the use of machine learning for monitoring baboon raiding behaviours. PHOTO CREDIT: GAËLLE FEHLMANN.
+description: Assessing the use of machine learning for monitoring baboon raiding behaviours. PHOTO CREDIT: GAELLE FEHLMANN.
 img: assets/img/baboon/baboonPhoto.png
 importance: 1
 category: Wild Animals
