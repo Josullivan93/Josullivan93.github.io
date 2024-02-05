@@ -28,6 +28,6 @@ Outline results
         {% include figure.liquid path="assets/img/baboon/baboon_workflow.png" title="Diagram of behaviour annotation/identification workflow." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption left-caption">
+<div class="caption text-left">
     Diagram of behaviour annotation/identification workflow.
 </div>
