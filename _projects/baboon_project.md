@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Baboon Project
-description: Assessing the use of machine learning for monitoring baboon raiding behaviours. PHOTO CREDIT&#58; GAËLLE FEHLMANN.
+description: Assessing the use of machine learning for monitoring baboon raiding behaviours. Photo Credit&#58; Gaëlle Fehlmann.
 img: assets/img/baboon/baboonPhoto.png
 importance: 1
 category: Wild Animals
@@ -18,7 +18,7 @@ Outline Project and my role in it - reverse image search to get reference for ba
     </div>
 </div>
 <div class="caption">
-    Baboon diagram and photo. PHOTO CREDIT: GAËLLE FEHLMANN.
+    Baboon diagram and photo. Photo Credit: Gaëlle Fehlmann.
 </div>
 
 Outline results
@@ -28,6 +28,6 @@ Outline results
         {% include figure.liquid path="assets/img/baboon/baboon_workflow.png" title="Diagram of behaviour annotation/identification workflow." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption left-caption">
     Diagram of behaviour annotation/identification workflow.
 </div>
