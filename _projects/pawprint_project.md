@@ -17,7 +17,7 @@ related_publications: false
     </div>
 </div>
 
-<br>
+<hr style="height:5px; visibility:hidden;" />
 
 <p>I initially designed the device based on a review of current trends in the literature and on my prior experiences capturing and analysing data with domestic dogs (<i>e.g.</i> <a href="https://josullivan93.github.io/projects/dogbox_project/">The DogBox project</a>), and wild animals (<i>e.g.</i> <a href="https://josullivan93.github.io/projects/baboon_project/">with Baboons</a>). It is now common for similar research devices to simultaneously capture streams of data from a diverse range of on-board sensors. To this end I included an accelerometer, gyroscope, and magnetometer on board to capture acceleration, rotation, and orientation. The PawPrint is therefore a 9 Degrees of Freedom sensor where the activity of the attached individual and its orientation over time (and relative to magnetic North) can be inferred and amalgamated to create a rich dataset for latter analysis.</p>
 
