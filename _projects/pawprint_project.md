@@ -9,10 +9,12 @@ related_publications: false
 ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-2 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/PawPrint/Battersea_logo.jpg" title="Battersea Dogs & Cats Home Logo" class="img-fluid rounded-circle z-depth-1" %}
     </div>
-	<span>The PawPrint Inertial and Magnetic Measurement Unit (IMMU) is an Open-Source sensor solution that I have designed and continue to develop. The project was funded via a Research Grant awarded by the Battersea Dogs & Cats Home and sought to create a sensor solution that was as low-cost as possible while also being developed with input from both researchers and shelter staff. </span>
+	<div class="col-sm mt-3 mt-md-0">
+		<span>The PawPrint Inertial and Magnetic Measurement Unit (IMMU) is an Open-Source sensor solution that I have designed and continue to develop. The project was funded via a Research Grant awarded by the Battersea Dogs & Cats Home and sought to create a sensor solution that was as low-cost as possible while also being developed with input from both researchers and shelter staff. </span>
+	</div>
 </div>
 
 Text between images
