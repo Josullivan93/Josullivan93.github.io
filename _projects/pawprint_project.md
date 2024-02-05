@@ -9,15 +9,15 @@ related_publications: false
 ---
 
 <div class="row align-items-center">
+	<div class="col-8 mt-3 mt-md-0">
+		<div>The PawPrint Inertial and Magnetic Measurement Unit (IMMU) is an Open-Source sensor solution that I have designed and continue to develop. The project was funded via a Research Grant awarded by the Battersea Dogs & Cats Home and sought to create a sensor solution that was as low-cost as possible while also being developed with input from both researchers and shelter staff. Alternative, more commercial solutions focus on use by animal owners and on the presentation of data visualisations that, while often familiar and intuitive due to similarities with human activity trackers, obfuscate raw data and are of limited use to more specialised use cases.</div>
+	</div>
     <div class="col-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/PawPrint/Battersea_logo.jpg" title="Battersea Dogs & Cats Home Logo" class="img-fluid rounded-circle z-depth-1" %}
     </div>
-	<div class="col-8 mt-3 mt-md-0">
-		<div>The PawPrint Inertial and Magnetic Measurement Unit (IMMU) is an Open-Source sensor solution that I have designed and continue to develop. The project was funded via a Research Grant awarded by the Battersea Dogs & Cats Home and sought to create a sensor solution that was as low-cost as possible while also being developed with input from both researchers and shelter staff. Alternative, more commercial solutions focus on use by animal owners and on the presentation of data visualisations that, while often familiar and intuitive due to similarities with human activity trackers, obfuscate raw data and are of limited use to the shelter staff and researcher's often more specialised and precise use cases. </div>
-	</div>
 </div>
 
-Text between images
+<p>I initially designed the device based on a review of current trends in the literature and on my prior experiences capturing and analysing data with domestic dogs ([e.g. The DogBox project](https://josullivan93.github.io/projects/dogbox_project/)), and wild animals ([e.g. with Baboons](https://josullivan93.github.io/projects/baboon_project/)), using various similar sensors. It is now common for similar research devices to simultaneously capture streams of data from a diverse range of on-board sensors. To this end I included an accelerometer, gyroscope, and magnetometer on board to capture acceleration, rotation, and orientation. The PawPrint is therefore a 9 Degrees of Freedom sensor where the activity of the attached individual and its orientation over time (and relative to magnetic North) can be inferred and amalgamated to create a rich dataset for latter analysis. Conversations with Battersea Shelter Staff suggested such an arrangement would be useful for the overnight monitoring of dog activity and behaviours, particularly in terms of highlighting periods of heightened activity for later viewing of CCTV cameras (avoiding arduous viewing sessions of often sleeping dogs). These conversations, alongside my own research experience, dictated the many design decisions that led to the creation of the PawPrint. For example, the use of SD-card based memory and non-board-mounted batteries were decision made both in the interest of cost (reducing replacement to a single component rather than an entire device) and practicality (hot-swapping memory and batteries for rapid redeployment and/or the relative ease of data recovery from SD when a device is damaged compared to doing so soldered flash memory).</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -28,6 +28,10 @@ Text between images
     The schematic for the most recent revision of the PawPrint Sensor.
 </div>
 
+<p>Close examination of the above schematic for the most recent PawPrint (Revision 1.1) may reveal some features that have not been discussed here and are not mentioned in any documentation. As the project continued the conversations had with Battersea staff also continued. Some features discussed during these latter periods were notable and would have been included in this revision if time were unlimited. For example, staff noted the potential use of a centralised warning hub, or system that could alert staff in other areas to potential behavioural or medical issues occurring in the kennels. Such a feature would require in-depth and targeted data-collection and validation to confidently identify alert-worthy situations from IMU data and would therefore be beyond the scope of the grant. However, such a warning system, or the ability for the device to communicate and transmit signals or data with a base, was seen as potentialy highly valuable for future development. Bluetooth was selected as the method due its maturity, low power-draw options, and established methods for calculation of proximity between bluetooth devices. This latter feature was considered as a potential method of networking PawPrint devices and potentially gathering social behaviour metrics inferred from proximity alongside the other behavioural sensor data from the 2 collars interacting. The groundwork for the inclusion of Bluetooth on the devices was therefore laid within the design of the 1.1 revision schematic. Similarly staff noted the  potential of knowing at what times and in what ways the animals were eating/drinking, using enrichment toys etc. and so the potential for the attachment of an RFID reader was included in the design so passive RFID chips could be attached to objects/areas of interest and interaction frequency and duration observed alongside the data from the existing inertial sensors. Similarly to Bluetooth and RFID the sensor also has the potential for the inclusion of a GPS sensor. This was included due to the frequent use of GPS alongside inertial data for "Dead-Reckoning", the reconstruction of a movement path between GPS fixes, and the frequent use of GPS location data in research and geo-fencing applications. The exhaustive power requirements and aerial design considerations needed for the proper utilisation of GPS made it impractical for inclusion within the project scope. Those features listed here as not currently included are to be incoporated into the project in the future either as part of the PawPrint or as expansion boards.</p>
+
+<p>The final size of the PawPrint device is 40mm x 35mm and fits comfortably on the collars of medium to large dogs using the custom housing that is included for 3D printing. Where small dogs are concerned the device should be fitted to a harness and wear time should be reduced so as to limit the discomfort of long-term harness wear. Where larger dogs are not comfortable with collars a harness can also be used but wear time should be limited. The project remains in active development and all files and instructions can be found on the [Open Science Framework Project Page: HERE](https://osf.io/kz6nw/). If you have any questions regarding the PawPrint or its use please get in touch via the email or social media links at the top and bottom of this page.</p>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/PawPrint/gerber.png" title="PawPrint V1.1 PCB Design" class="img-fluid rounded z-depth-1" %}
@@ -37,7 +41,5 @@ Text between images
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The PawPrint Revision 1.1 PCB Gerber file and a photo of the final device.
 </div>
-
-End text test test test.
