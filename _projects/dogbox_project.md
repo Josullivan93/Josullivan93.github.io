@@ -13,7 +13,7 @@ giscus_comments: false
 		<div>DogBox is the UK's only mobile dog research facility and was an integral part of the project undertaken during my PhD to sample and analyse the tri-axial accelerometry of domestic dogs within their home environments. The DogBox enabled us to more effectively bring our research to our volunteers and to local or national events. Collar-mounted tri-axial accelerometer data from 86 dogs in the North East of England were collected as part of the DogBox sample during my PhD. </div>
 	</div>
     <div class="col-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/DogBox/DogBox_Van.png" title="The DogBox" class="img-fluid z-depth-1" %}
+        {% include figure.liquid path="assets/img/DogBox/DogBox_Van.png" title="The DogBox" class="img-fluid z-depth-1" width="125%" %}
     </div>
 </div>
 
@@ -21,9 +21,9 @@ giscus_comments: false
 
 <p>My thesis title, "The Automatic Classification of Canine State", refers to the application of biotelemetry, in this case specifically a collar-mounted, tri-axial accelerometer, in the automated assessment of domestic dog welfare. Prior to this project my academic experience had predominately been within the field of behavioural ecology and in the application of these technologies for the remote observation of individuals and groups in free-living conditions. Here I brought this prior experience and considered the potential for these devices to inform animal management within the home. The core of the project, and of my work since, is the utilisation of novel technologies to supplement traditional observational methods and, as a result, better capture the entirety of a focal individual's (or group's) experience, behaviour, and environment. The focus on the accelerometer, rather than a multi-sensor solution, allowed for a detailed exploration of these themes while more prominently highlighting potential shortfalls or considerations required in the use of such solutions, and how they can be alleviate either with careful experimental or analytical design or with additional methods or technologies.</p>
 
-<div class="row">
+<div class="container-fluid text-center mt-4 p-0">
     <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/DogBox/DogBox_Action.png" title="Participant Being Led Over A Jump" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid path="assets/img/DogBox/DogBox_Action.png" title="Participant Being Led Over A Jump" class="img-fluid rounded z-depth-1" width="40%" %}
     </div>
 </div>
 <div class="caption">
@@ -45,7 +45,7 @@ giscus_comments: false
 
 <div class="container-fluid text-center mt-4 p-0">
 	<div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/DogBox/Dog_Collar_Mount.png" title="Mount Position And Orientation Of Accelerometer" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid path="assets/img/DogBox/Dog_Collar_Mount.png" title="Mount Position And Orientation Of Accelerometer" class="img-fluid rounded z-depth-1" width="75%" %}
     </div>
 </div>
 <div class="caption">
