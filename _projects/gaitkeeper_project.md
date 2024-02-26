@@ -17,7 +17,7 @@ related_publications: true
         {% include figure.liquid path="assets/img/gaitkeeper/DogLegAX3.png" title="Attaching the Axivity AX3 to a dogs leg" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gaitkeeper/gaitkeeper_orientation.svg" title="Axivity Sensor" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid path="assets/img/gaitkeeper/gaitkeeper_orientation.png" title="Axivity Sensor" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ related_publications: true
 
 <div class="container-fluid text-center mt-4 p-0">
     <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/gaitkeeper/stepcountflow.svg" title="Pedometer signal processing flow diagram" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid path="assets/img/gaitkeeper/stepcountflow.png" title="Pedometer signal processing flow diagram" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
