@@ -14,21 +14,21 @@ related_publications: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gaitkeeper/DogLegAX3.png" title="Attaching the Axivity AX3 to a dogs leg" class="img-fluid rounded z-depth-1" width="40%" %}
+        {% include figure.liquid path="assets/img/gaitkeeper/DogLegAX3.png" title="Attaching the Axivity AX3 to a dogs leg" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gaitkeeper/gaitkeeper_orientation.webp" title="Axivity Sensor" class="img-fluid rounded z-depth-1" width="40%" %}
+        {% include figure.liquid path="assets/img/gaitkeeper/gaitkeeper_orientation.svg" title="Axivity Sensor" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
     Gaitkeeper accelerometer attachement location & orientation diagram.
 </div>
 
-<p>The second of these projects ({% cite ladha2018step %}) took a different approach for the objective measurement of canine gait features. Instead of individual step or stride events per foot (as with Gaitkeeper) it focussed on the detection of overall step numbers and resulting distance travelled using a collar mounted sensor. Collar-based pedometers like this are common in the marketplace but often use "closed-source" or black-box algorithms that are inaccessible to researchers. The method outlined in the paper addresses the idiosyncracies of canine gait and is entirely open-source. The resulting measures of step count and distance may be advantageous for the use in physical activity detection and classification, or in the "dead-reckoning" of locomotion paths where GPS signals are obscured (such as inside buildings) or battery longevity is a concern (as GPS is battery intensive).</p>
+<p>The second of these projects {% cite ladha2018step %} took a different approach for the objective measurement of canine gait features. Instead of individual step or stride events per foot (as with Gaitkeeper) it focussed on the detection of overall step numbers and resulting distance travelled using a collar mounted sensor. Collar-based pedometers like this are common in the marketplace but often use "closed-source" or black-box algorithms that are inaccessible to researchers. The method outlined in the paper addresses the idiosyncracies of canine gait and is entirely open-source. The resulting measures of step count and distance may be advantageous for the use in physical activity detection and classification, or in the "dead-reckoning" of locomotion paths where GPS signals are obscured (such as inside buildings) or battery longevity is a concern (as GPS is battery intensive).</p>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gaitkeeper/stepcountflow.webp" title="Pedometer signal processing flow diagram" class="img-fluid rounded z-depth-1" width="40%" %}
+<div class="container-fluid text-center mt-4 p-0">
+    <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+        {% include figure.liquid path="assets/img/gaitkeeper/stepcountflow.svg" title="Pedometer signal processing flow diagram" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">

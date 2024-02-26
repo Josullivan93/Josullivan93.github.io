@@ -23,7 +23,7 @@ giscus_comments: false
 
 <div class="container-fluid text-center mt-4 p-0">
     <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/DogBox/DogBox_Action.png" title="Participant Being Led Over A Jump" class="img-fluid rounded z-depth-1" width="40%" %}
+        {% include figure.liquid path="assets/img/DogBox/DogBox_Action.png" title="Participant Being Led Over A Jump" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
@@ -34,7 +34,7 @@ giscus_comments: false
 
 <div class="container-fluid text-center mt-4 p-0">
 	<div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/DogBox/Dog_Collar_Mount.png" title="Mount Position And Orientation Of Accelerometer" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid path="assets/img/DogBox/Dog_Collar_Mount.png" title="Mount Position And Orientation Of Accelerometer" class="img-fluid rounded z-depth-1" width="60%" %}
     </div>
 </div>
 <div class="caption">
