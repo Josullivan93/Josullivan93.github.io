@@ -14,7 +14,7 @@ related_publications: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gaitkeeper/DogLegAX3.png" title="Attaching the Axivity AX3 to a dogs leg" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid path="assets/img/gaitkeeper/DogLegAX3.png" title="Attaching the Axivity AX3 to a dogs leg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/gaitkeeper/gaitkeeper_orientation.png" title="Axivity Sensor" class="img-fluid rounded z-depth-1" %}
