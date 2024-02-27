@@ -5,9 +5,10 @@ description: Assessing the use of machine learning for monitoring baboon raiding
 img: assets/img/baboon/baboonPhoto.png
 importance: 1
 category: Wild Animals
+related_publications: true
 ---
 
-Outline Project and my role in it - reverse image search to get reference for baboon photo. Check Shoalgroup website - replace if not open license.
+<p>While undertaking my Master's of Research at Swansea University I was a member of the <a href="https://www.shoalgroup.org/">SHOAL Group</a> and my thesis ("The applicability of animal-attached tri-axial accelerometers and machine learning techniques for inferring the behaviour of wild social primates") explored the use of remote sensing (namely the accelerometer) in the automated classification of behaviours in the Chacma Baboon. Here I annotated footage of the wild population of baboons, identified a range of potentially informative behaviours, and assessed the utility of a diverse number of machine learning algorithms in the accurate and reliable classification of these behaviours.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,7 +22,7 @@ Outline Project and my role in it - reverse image search to get reference for ba
     Baboon diagram and photo. Photo Credit: Gaëlle Fehlmann.
 </div>
 
-Outline results
+<p>This work formed a foundation which was then further refined by the SHOAL group team (particularly <a href="https://fehlmanng.com/">Dr. Gaelle Fehlmann</a>) after the completion of my masters. The paper resulting from this {% cite fehlmann2017identification %} presents a validated end-to-end methodology for the use of collar-mounted accelerometers, alongside random forest models of classification, for the remote identification of baboon behaviours. This method is presented in detail to inspire future work exploring novel questions of primate behavioural ecology without requiring extensive, disruptive observation, handling and/or habituation of wild primates. The works' focus on grooming behaviours underlines the potential of this, and similar methods, for the future assessment of social interactions and networks within groups. This adds to a wealth of literature exploring the exciting prospect of the use of diverse biotelemetry sensors and methodologies to capture longitudinal datasets that could better allow researchers the ability to model complex social group interactions, roles, and decision making.</p>
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -29,5 +30,5 @@ Outline results
     </div>
 </div>
 <div class="caption text-left">
-    Diagram of behaviour annotation/identification workflow.
+    Diagram of behaviour annotation/identification workflow {% cite fehlmann2017identification %}.
 </div>
