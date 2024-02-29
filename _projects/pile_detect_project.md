@@ -5,7 +5,7 @@ description: Detection of piling behaviours from video using deep learning metho
 img: assets/img/piling/chicken_prof.jpeg
 importance: 1
 category: Commercial Animals
-related_publications: true
+related_publications: false
 ---
 
 This is the current project I am involved with. Piling behaviours exhibited by commercial laying hens may result in mortalities within the flock (referred to as smothering). Piling (and by extension any resulting smothering) presents as a densely packed grouping of birds that falls into 3 categories referring to the trigger of the behaviour. These are: panic smothers, nestbox smothers, and recurring smothers. The trigger for the latter of these is unknown, with birds appearing unpanicked, and occur throughout the laying period of the hens potentially resulting in a low-level of mortality occurring throughout.
