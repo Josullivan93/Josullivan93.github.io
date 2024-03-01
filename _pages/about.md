@@ -25,6 +25,7 @@ To undertake this research I have developed a varied skillset at the interface o
   - Implementation of cutting edge technologies where appropriate and to appraise their use practically (thermography, acoustic monitoring, computer vision, GPS, activity monitoring etc.)
   - Experience of hardware design of custom sensor devices, & software design of custom applications, programs & workflows.
   - Science communication across diverse settings and audiences (international conferences, government stakeholders, lay audiences, etc.)
+
 These abilities, and other skills, are presented in more detail on my [CV](https://josullivan93.github.io/cv/), and their use in past research is described across this sites [Project pages](https://josullivan93.github.io/projects/).
 
 I strongly believe that science should be open and accessible to all. In an effort to improve access to low-cost sensor-based research I have designed and produced the PawPrint Sensor as an open-source project. Further details on this can be found on the [Pawprint Project page](https://josullivan93.github.io/projects/) and files can be accessed on the [PawPrint Open Science Framework page](https://osf.io/kz6nw/).
