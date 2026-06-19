@@ -6,8 +6,15 @@ description: A streamlined tool for the democratisation of bioacoustic annotatio
 nav: false
 ---
 
-### Demo Provisioning
-
-The interactive Squawk-Spot tool is currently being provisioned for the upcoming conference sessions.
-
-Please check back here during the poster session to access the live RShiny application.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe 
+            src="{{ '/squawk-app/index.html' | relative_url }}" 
+            width="100%" 
+            height="800px" 
+            frameborder="0" 
+            style="border: 1px solid #ddd; border-radius: 8px; background-color: #f4f7f6;"
+            allow="autoplay">
+        </iframe>
+    </div>
+</div>
