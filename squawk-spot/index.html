@@ -19,59 +19,10 @@
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
     
-  
-<style>
-  body { background-color: #f4f7f6; margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-  #shinylive-splash { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #f4f7f6; z-index: 9999; transition: opacity 0.5s ease-out; pointer-events: auto; }
-  #shinylive-splash.fade-out { opacity: 0; pointer-events: none; }
-  .splash-progress-container { width: 80%; max-width: 400px; height: 8px; background-color: #e9ecef; border-radius: 4px; overflow: hidden; margin-bottom: 20px; }
-  #splash-progress-bar { width: 0%; height: 100%; background: linear-gradient(90deg, #007bff, #0056b3); border-radius: 4px; }
-  .splash-text { color: #333; font-size: 1.5rem; font-weight: bold; }
-  .splash-subtext { color: #666; font-size: 1rem; margin-top: 10px; }
-</style>
- </head>
+  </head>
   <body>
-<div id="shinylive-splash">
-  <div class="splash-progress-container"><div id="splash-progress-bar"></div></div>
-  <div class="splash-text">Loading Squawk-Spot...</div>
-  <div class="splash-subtext" id="splash-status">Downloading audio engine...</div>
-</div>
     
     <div style="height: 100vh; width: 100vw" id="root"></div>
     
-  
-<script>
-  window.splashReady = false;
-  document.addEventListener('DOMContentLoaded', function() {
-    var bar = document.getElementById('splash-progress-bar');
-    var status = document.getElementById('splash-status');
-    if (bar) {
-      setTimeout(() => { 
-        bar.style.transition = 'width 2s ease-out';
-        bar.style.width = '60%'; 
-      }, 100);
-      setTimeout(() => {
-        bar.style.transition = 'width 5s ease-out';
-        bar.style.width = '90%';
-        if(status) status.innerText = 'Extracting environment...';
-      }, 2200);
-    }
-    window.splashReady = true;
-  });
-  
-  // Listen for Shiny to be ready
-  window.addEventListener('shiny:connected', function() {
-    var splash = document.getElementById('shinylive-splash');
-    if (splash) {
-      var bar = document.getElementById('splash-progress-bar');
-      if (bar) {
-        bar.style.transition = 'width 0.2s ease-out';
-        bar.style.width = '100%';
-      }
-      splash.classList.add('fade-out');
-      setTimeout(() => { splash.style.display = 'none'; }, 500);
-    }
-  });
-</script>
- </body>
+  </body>
 </html>
