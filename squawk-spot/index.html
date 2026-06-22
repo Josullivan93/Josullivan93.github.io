@@ -42,12 +42,16 @@
       var bar = document.getElementById('splash-progress-bar');
       var status = document.getElementById('splash-status');
       if (bar) {
-        setTimeout(() => { bar.style.width = '20%'; }, 100);
+        // Quick ramp to 60%, then slower to 90%
+        setTimeout(() => { 
+          bar.style.transition = 'width 2s ease-out';
+          bar.style.width = '60%'; 
+        }, 100);
         setTimeout(() => {
-          bar.style.transition = 'width 20s cubic-bezier(0.1, 0.5, 0.1, 1)';
+          bar.style.transition = 'width 5s ease-out';
           bar.style.width = '90%';
           if(status) status.innerText = 'Extracting environment...';
-        }, 600);
+        }, 2200);
       }
     });
   </script>
