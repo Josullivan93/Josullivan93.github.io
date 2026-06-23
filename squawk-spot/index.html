@@ -57,22 +57,26 @@
       function removeSpinner() {
         const spinner = document.getElementById('loading-spinner');
         if (spinner) {
+          console.log('Removing spinner');
           spinner.classList.add('fade-out');
           setTimeout(() => spinner.remove(), 500);
         }
       }
       
-      // Poll for Shiny object - fires when app is ready
+      // Poll for root div to have Shiny content
       const checkInterval = setInterval(() => {
-        if (window.Shiny && window.Shiny.setInputValue) {
+        const root = document.getElementById('root');
+        if (root && root.children.length > 0 && root.querySelector('[data-shiny-app]')) {
+          console.log('App mounted, removing spinner');
           clearInterval(checkInterval);
           removeSpinner();
         }
-      }, 100);
+      }, 200);
       
       // Fallback: remove after 90 seconds max
       setTimeout(() => {
         clearInterval(checkInterval);
+        console.log('Timeout reached, removing spinner');
         removeSpinner();
       }, 90000);
       
