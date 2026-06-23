@@ -57,28 +57,13 @@
       function removeSpinner() {
         const spinner = document.getElementById('loading-spinner');
         if (spinner) {
-          console.log('Removing spinner');
           spinner.classList.add('fade-out');
           setTimeout(() => spinner.remove(), 500);
         }
       }
       
-      // Poll for root div to have Shiny content
-      const checkInterval = setInterval(() => {
-        const root = document.getElementById('root');
-        if (root && root.children.length > 0 && root.querySelector('[data-shiny-app]')) {
-          console.log('App mounted, removing spinner');
-          clearInterval(checkInterval);
-          removeSpinner();
-        }
-      }, 200);
-      
-      // Fallback: remove after 90 seconds max
-      setTimeout(() => {
-        clearInterval(checkInterval);
-        console.log('Timeout reached, removing spinner');
-        removeSpinner();
-      }, 90000);
+      // Just remove after 20 seconds - don't poll
+      setTimeout(removeSpinner, 20000);
       
       runExportedApp({
         id: "root",
@@ -96,7 +81,7 @@
     <div id="loading-spinner">
       <div style="text-align: center;">
         <div class="spinner"></div>
-        <div class="spinner-text">Loading...</div>
+        <div class="spinner-text">Loading... There may be a white screen while the application initiates R.</div>
       </div>
     </div>
     
