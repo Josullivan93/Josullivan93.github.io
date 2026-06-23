@@ -54,14 +54,27 @@
     <script type="module">
       import { runExportedApp } from "./shinylive/shinylive.js";
       
-      // Remove spinner when Shiny is ready
-      window.addEventListener('shiny:connected', () => {
+      function removeSpinner() {
         const spinner = document.getElementById('loading-spinner');
         if (spinner) {
           spinner.classList.add('fade-out');
           setTimeout(() => spinner.remove(), 500);
         }
-      });
+      }
+      
+      // Poll for Shiny object - fires when app is ready
+      const checkInterval = setInterval(() => {
+        if (window.Shiny && window.Shiny.setInputValue) {
+          clearInterval(checkInterval);
+          removeSpinner();
+        }
+      }, 100);
+      
+      // Fallback: remove after 90 seconds max
+      setTimeout(() => {
+        clearInterval(checkInterval);
+        removeSpinner();
+      }, 90000);
       
       runExportedApp({
         id: "root",
