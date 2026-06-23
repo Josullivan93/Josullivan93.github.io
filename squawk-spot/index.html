@@ -4,23 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shiny App</title>
+    
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      #loading-spinner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f4f7f6;
+        z-index: 10001;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      #loading-spinner.fade-out {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .spinner-container {
+        text-align: center;
+      }
+      
+      .spinner {
+        border: 4px solid #e9ecef;
+        border-top: 4px solid #333;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px auto;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      .spinner-text {
+        color: #333;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 300px;
+      }
+    </style>
+    
     <script
       src="./shinylive/load-shinylive-sw.js"
       type="module"
     ></script>
     <script type="module">
       import { runExportedApp } from "./shinylive/shinylive.js";
+      
+      function removeSpinner() {
+        const spinner = document.getElementById('loading-spinner');
+        if (spinner) {
+          spinner.classList.add('fade-out');
+          setTimeout(() => spinner.remove(), 500);
+        }
+      }
+      
+      setTimeout(removeSpinner, 10000);
+      
       runExportedApp({
         id: "root",
         appEngine: "r",
         relPath: "",
       });
     </script>
+    
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
     
   </head>
   <body>
+    
+    <div id="loading-spinner">
+      <div class="spinner-container">
+        <div class="spinner"></div>
+        <div class="spinner-text">Loading... There will be a white screen while the application initiates R.</div>
+      </div>
+    </div>
     
     <div style="height: 100vh; width: 100vw" id="root"></div>
     
